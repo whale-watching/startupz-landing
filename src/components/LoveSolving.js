@@ -5,7 +5,7 @@ function LoveSolving () {
     return (
         <div className="relative mt-[180px] py-[20px] flex flex-col md:flex-row justify-center items-center">
             <img className='hidden md:block' src={LeftHand} alt='left-hand'/>
-            <p className='mx-[10px] mb-[30px] md:mb-[0px] text-[40px] leading-[40px] text-[#FB8958]'>
+            <p className='mx-[10px] mb-[30px] md:mb-[0px] text-[40px] leading-[40px] text-[#FB8958] text-center'>
                 We love solving problems!
             </p>
             <img className='hidden md:block' src={RightHand} alt='right-hand'/>

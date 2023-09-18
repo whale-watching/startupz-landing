@@ -8,7 +8,7 @@ function Footer () {
 
     return (
         <div className="bg-[#FBFBFA] py-[40px] w-full">
-            <div className="container flex flex-wrap sm:justify-between w-full">
+            <div className="container mx-auto flex flex-wrap sm:justify-between w-full">
                 <div className="h-[150px] flex flex-col justify-between min-w-full md:min-w-[300px] m-4">
                     <Logo />
                     <p>

@@ -3,19 +3,6 @@
   src: url('../src/assets/fonts/circular-std-medium-500.ttf') format('truetype');
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .container {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-
 body {
   font-family: 'Circular Std';
 }

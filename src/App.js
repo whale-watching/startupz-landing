@@ -15,7 +15,7 @@ function App() {
     <>
       <NavBar />
       <CreateStartUp />
-      <div className="container">
+      <div className="container mx-auto px-4">
         <WhoWeAre />
         <LoveSolving />
         <OurCoreValue />

@@ -42,7 +42,7 @@ function OurWorks() {
             <div className="flex flex-wrap text-center">
                 {
                     items.map((item, index) =>
-                        <div key={index} className="mb-[80px] px-[90px] w-full md:w-1/2 flex flex-col items-center">
+                        <div key={index} className="mb-[80px] px-[10px] md:px-[90px] w-full md:w-1/2 flex flex-col items-center">
                             <h3 className="text-[30px]" style={{color: item.color}}>{item.title}</h3>
                             <p className='mt-[18px] text-[#3D4F5C]'>{item.text}</p>
                             <img src={item.image} alt={item.alt}/>

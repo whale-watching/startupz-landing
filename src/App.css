@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('../src/assets/fonts/circular-std-medium-500.ttf') format('truetype');
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+body {
+  font-family: 'Circular Std';
+}
+
+.man {
+  width: 64px;
+  height: 58px;
+  background: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/images/man.png');
+}
+
+.form-shadow {
+  box-shadow: 0 8px 35px 0 rgba(187, 169, 142, 0.15);
+}
+
+@media (min-width: 768px) {
+  .start-up {
+    height: 500px;
+    background: no-repeat;
+    background-image: url('./assets/images/start-up.png');
+    background-position: top right;
+  }
+}
